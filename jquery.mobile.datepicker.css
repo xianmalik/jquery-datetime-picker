@@ -1,0 +1,143 @@
+div.date-time-picker {
+    width: 21em;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    position: relative;
+    background: #f7f5f7;
+}
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    font-family: 'Roboto', sans-serif;
+}
+span.ui-icon {
+    visibility: hidden;
+}
+a.ui-datepicker-prev span:before {content: '<';visibility: visible;}
+a.ui-datepicker-next span:after {content: '>';visibility: visible;}
+
+a.ui-corner-all {
+    position: absolute;
+}
+
+a.ui-datepicker-prev.ui-corner-all {
+    left: 5px;
+}
+
+a.ui-datepicker-next.ui-corner-all {
+    right: 5px;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    padding: .5em 0;
+}
+
+table.ui-datepicker-calendar {
+    width: 100%;
+}
+
+table {
+    display: block;
+}
+thead,
+tbody {
+    display: table;
+    width: 100%;
+}
+thead th {
+    display: table-cell;
+    width: 14.2857%;
+}
+thead,
+thead tr,
+thead tr th {
+    font-weight: normal;
+    background: #FFF;
+    border: 0;
+    border-spacing: 0;
+}
+table tr td {
+    text-align: center;
+}
+
+thead tr th span ,
+table tr td a {
+    display: block;
+    line-height: 1.25em;
+    font-weight: normal !important;
+    text-decoration: none;
+    text-shadow: none !important;
+}
+
+thead tr th span {
+    margin: .35em auto;
+    padding: .25em 0;
+    font-size: 11px;
+    color: #888 !important;
+}
+table tr td a {
+    margin: .35em .5em;
+    width:1.2em;
+    height: 1.2em;
+    padding: .25em;
+    color: #333 !important;
+}
+.ui-datepicker-current-day a,
+table tr td a:hover {
+    background: #92caf4;
+    border-radius: 100%;
+}
+.date-time-wrap-head {
+    overflow: auto;
+}
+.ui-radio {
+    width: 50%;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+.ui-radio label,
+.ui-radio label:hover {
+    color: #f7f5f7;
+    display: inline-block;
+    padding: 0;
+    text-align: center !important;
+    border: 0 !important;
+    background-color: #FFF !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    line-height: 1.2em;
+    padding: .5em 0;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 2px solid #FFF !important;
+    border: 0;
+    transition: all .3s ease-in-out;
+}
+.ui-radio label.ui-radio-on,
+.ui-radio label.ui-radio-on:hover {
+    color: #f89627;
+    background-color: #FFF !important;
+    border-bottom: 2px solid #f89627 !important;
+}
+.ui-radio .ui-btn:after {
+    display: none !important;
+}
+.ui-radio input[type="radio"] {
+    display:none;
+}
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
+}
